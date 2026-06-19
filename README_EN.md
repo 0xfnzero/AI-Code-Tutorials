@@ -45,6 +45,17 @@
 
 ---
 
+## 🔎 What This Tutorial Covers
+
+AI-Code-Tutorials is a bilingual Claude Code and AI-assisted programming course for complete beginners, indie developers, and professional engineers. It starts with installation, first conversations, CLI commands, and file operations, then moves into web app projects, prompt optimization, code review, debugging, security best practices, MCP servers, and AI sub-agent workflows.
+
+| Module | Coverage |
+|--------|----------|
+| Beginner foundations | Claude Code concepts, installation, first conversations, basic commands, Git, and file operations |
+| Hands-on projects | Web app planning, frontend pages, backend APIs, authentication, feature enhancements, deployment |
+| Advanced workflows | Prompt engineering, code review, debugging, design patterns, error handling, security practices |
+| AI agents | Sub-agent concepts, development/architecture/testing/DevOps agents, collaboration modes, MCP server setup |
+
 ## 📖 Quick Start
 
 Start directly from [Lesson 1: What is Claude Code?](./tutorials/en/01-basics.md). Lesson 2 includes complete installation and configuration guide.
