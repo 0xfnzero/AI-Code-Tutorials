@@ -1,10 +1,10 @@
 <div align="center">
-    <h1>🚀 Claude Code Mastery Guide</h1>
-    <h3><em>Complete AI-Assisted Programming Tutorial</em></h3>
+    <h1>🚀 AI Code Tutorials</h1>
+    <h3><em>Claude Code and OpenAI Codex AI-Assisted Programming Tutorial</em></h3>
 </div>
 
 <p align="center">
-    <strong>From zero to expert, systematically learn Claude Code, master AI-assisted programming skills, and boost development efficiency by 10x.</strong>
+    <strong>From zero to advanced workflows, systematically learn Claude Code, OpenAI Codex, and modern AI-assisted programming.</strong>
 </p>
 
 <p align="center">
@@ -24,6 +24,7 @@
 
 <p align="center">
     <img src="https://img.shields.io/badge/Claude-000000?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude">
+    <img src="https://img.shields.io/badge/Codex-111827?style=for-the-badge&logo=openai&logoColor=white" alt="Codex">
     <img src="https://img.shields.io/badge/AI-FF6B6B?style=for-the-badge&logo=openai&logoColor=white" alt="AI">
     <img src="https://img.shields.io/badge/Tutorial-4B8BBE?style=for-the-badge&logo=read-the-docs&logoColor=white" alt="Tutorial">
 </p>
@@ -47,19 +48,21 @@
 
 ## 🔎 What This Tutorial Covers
 
-AI-Code-Tutorials is a bilingual Claude Code and AI-assisted programming course for complete beginners, indie developers, and professional engineers. It starts with installation, first conversations, CLI commands, and file operations, then moves into web app projects, prompt optimization, code review, debugging, security best practices, MCP servers, and AI sub-agent workflows.
+AI-Code-Tutorials is a bilingual AI-assisted programming course for complete beginners, indie developers, and professional engineers. It now covers both Claude Code and OpenAI Codex, starting with installation, first conversations, CLI commands, and file operations, then moving into web app projects, prompt optimization, code review, debugging, security best practices, MCP servers, AI agents, and Codex multi-surface workflows.
 
 | Module | Coverage |
 |--------|----------|
-| Beginner foundations | Claude Code concepts, installation, first conversations, basic commands, Git, and file operations |
+| Beginner foundations | Claude Code and Codex concepts, installation, first conversations, basic commands, Git, and file operations |
 | Hands-on projects | Web app planning, frontend pages, backend APIs, authentication, feature enhancements, deployment |
 | Advanced workflows | Prompt engineering, code review, debugging, design patterns, error handling, security practices |
 | AI agents | Sub-agent concepts, development/architecture/testing/DevOps agents, collaboration modes, MCP server setup |
-| Continuous updates | Claude Code, MCP, Skills, Agent SDK, AI coding trends, and tutorial maintenance workflow |
+| Codex track | Codex CLI, App, IDE, Cloud, GitHub review, AGENTS.md, sandboxing, skills, and plugins |
+| Continuous updates | Claude Code, OpenAI Codex, MCP, Skills, Agent SDK, AI coding trends, and tutorial maintenance workflow |
 
 ## 📖 Quick Start
 
-Start directly from [Lesson 1: What is Claude Code?](./tutorials/en/01-basics.md). Lesson 2 includes complete installation and configuration guide.
+If you mainly use Claude Code, start from [Lesson 1: What is Claude Code?](./tutorials/en/01-basics.md).  
+If you mainly use OpenAI Codex, start with [Lesson 16: OpenAI Codex Basics](./tutorials/en/16-openai-codex-basics.md), then use Lessons 6, 7, 9, 12, and 13 for general AI coding workflows.
 
 > 📌 **Maintenance status**: Since 2026-06-20, this repository includes a continuous update process. For version-sensitive content, start with [Lesson 15: AI Coding Update Tracker](./tutorials/en/15-ai-coding-update-tracker.md) and the [Changelog](./CHANGELOG.md).
 
@@ -205,6 +208,13 @@ Master advanced development skills with 6 specialized modules:
 - Skills, Plugins, Agent SDK, and multi-agent workflow monitoring
 - Content update checklist, roadmap, and changelog process
 
+#### [Lesson 16: OpenAI Codex Basics and Practical Workflows](./tutorials/en/16-openai-codex-basics.md) ⭐
+**Add the OpenAI Codex track**:
+- Codex CLI, IDE extension, Codex app, Codex cloud, and GitHub review
+- `AGENTS.md`, `config.toml`, sandboxing, approval policies, and rules
+- MCP, skills, plugins, and reusable project workflows
+- Differences and complementary workflows between Codex and Claude Code
+
 ## 🎓 Learning Path Recommendations
 
 ### For Complete Beginners
@@ -215,13 +225,19 @@ Estimated time: 2-3 weeks
 
 ### For Those with Programming Experience
 ```
-Lesson 1 (quick scan) → Lesson 2 → Lesson 4 → Lesson 5 → Lesson 6 → Lesson 7 → Lesson 8 → Lesson 9 → Lesson 10
+Lesson 1 (quick scan) → Lesson 2 → Lesson 4 → Lesson 5 → Lesson 6 → Lesson 7 → Lesson 9 → Lesson 10 → Lesson 16
 Estimated time: 1-2 weeks
 ```
 
 ### For Professional Developers
 ```
-Lesson 2 (installation) → Lesson 5 → Lesson 7 → Lesson 8 → Lesson 9 (must-learn) → Lesson 10 (must-learn) → Lesson 15 (keep current)
+Lesson 2 (installation) → Lesson 5 → Lesson 7 → Lesson 9 (must-learn) → Lesson 10 (must-learn) → Lesson 13 (MCP) → Lesson 15 (keep current) → Lesson 16 (Codex)
+Estimated time: 3-5 days
+```
+
+### For Codex Users
+```
+Lesson 16 (Codex) → Lesson 13 (MCP) → Lesson 15 (keep current) → Lesson 7 (advanced techniques) → Lesson 9 (prompt optimization) → Lesson 10 (AI agents)
 Estimated time: 3-5 days
 ```
 
@@ -239,6 +255,7 @@ Estimated time: 3-5 days
 After completing this tutorial, you will be able to:
 
 - ✅ Use Claude Code proficiently for daily development
+- ✅ Use OpenAI Codex CLI, App, IDE, Cloud, and GitHub review workflows
 - ✅ Complete frontend and backend projects independently
 - ✅ Apply best practices to write high-quality code
 - ✅ Design and implement complex application architectures
@@ -250,12 +267,26 @@ After completing this tutorial, you will be able to:
 
 AI coding tools move quickly. This repository now follows an "official-source review + bilingual sync + changelog" maintenance workflow:
 
-- Check Claude Code, MCP, Skills, and Agent SDK official docs and versions monthly
+- Check Claude Code, OpenAI Codex, MCP, Skills, and Agent SDK official docs and versions monthly
 - Review commands, configuration fields, model names, deployment platforms, and security guidance quarterly
 - Record version-sensitive updates in [CHANGELOG.md](./CHANGELOG.md)
 - Use [Lesson 15](./tutorials/en/15-ai-coding-update-tracker.md) as the detailed maintenance checklist
 
 ## 📚 Extended Learning Resources
+
+### Official Documentation
+
+#### Claude Code
+- [Claude Code Docs](https://docs.anthropic.com/en/docs/claude-code/overview)
+- [Claude Code Changelog](https://code.claude.com/docs/en/changelog)
+
+#### OpenAI Codex
+- [OpenAI Codex Overview](https://developers.openai.com/codex)
+- [OpenAI Codex Manual](https://developers.openai.com/codex/codex-manual.md)
+
+#### General Protocols and Ecosystem
+- [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)
+- [Agent Skills](https://agentskills.io)
 
 ### Recommended Articles
 
@@ -281,13 +312,14 @@ Don't know what to do with AI programming for international markets? Using this 
 
 ## 🚀 Start Learning
 
-Ready? Let's start with Lesson 1!
+Choose the entry point based on the tool you use:
 
-👉 [Lesson 1: What is Claude Code?](./tutorials/en/01-basics.md)
+- Claude Code users: [Lesson 1: What is Claude Code?](./tutorials/en/01-basics.md)
+- OpenAI Codex users: [Lesson 16: OpenAI Codex Basics](./tutorials/en/16-openai-codex-basics.md)
 
 ## 📞 Get Help
 
-- 💬 Have questions? Ask Claude Code directly in your project
+- 💬 Have questions? Ask the AI coding agent you are using directly in your project
 - 🐛 Found errors? Submit an Issue
 - 💡 Have suggestions? Pull Requests welcome
 
@@ -307,10 +339,11 @@ Thanks to all contributors who make this tutorial better!
 
 ## 📈 Project Status
 
-- ✅ 15 complete lessons
+- ✅ 16 complete lessons
 - ✅ From beginner to expert
 - ✅ Includes hands-on projects
 - ✅ Continuously updated
+- ✅ Claude Code and OpenAI Codex tracks
 
 ## 🗺️ Roadmap
 
@@ -322,4 +355,4 @@ Thanks to all contributors who make this tutorial better!
 
 ---
 
-<p align="center">Made with ❤️ by the Claude Code Community</p>
+<p align="center">Made with ❤️ by the AI coding community</p>

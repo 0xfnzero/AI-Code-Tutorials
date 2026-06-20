@@ -1,8 +1,8 @@
 # Lesson 15: AI Coding Update Tracker and Iteration Playbook
 
-> Learning objective: Build a repeatable update process so this tutorial can keep pace with Claude Code, MCP, Skills, Agent SDK, and modern AI-assisted development workflows.
+> Learning objective: Build a repeatable update process so this tutorial can keep pace with Claude Code, OpenAI Codex, MCP, Skills, Agent SDK, and modern AI-assisted development workflows.
 >
-> Current baseline: 2026-06-20. The Claude Code npm latest version is `2.1.183`, and the official changelog entry is dated 2026-06-19. The latest stable MCP specification version is `2025-11-25`.
+> Current baseline: 2026-06-20. The Claude Code npm latest version is `2.1.183`, the official changelog entry is dated 2026-06-19, the OpenAI Codex manual has been reviewed, and the latest stable MCP specification version is `2025-11-25`.
 
 ## 1. Why Continuous Tracking Matters
 
@@ -34,7 +34,23 @@ Checklist:
 - Changes to subagents, skills, plugins, hooks, IDE integration, and background tasks
 - Windows, macOS, and Linux compatibility updates
 
-### 2.2 MCP
+### 2.2 OpenAI Codex
+
+Sources to check:
+
+- [OpenAI Codex manual](https://developers.openai.com/codex/codex-manual.md)
+- [Codex overview](https://developers.openai.com/codex)
+- Codex CLI: `codex --help`, `codex doctor`, and `codex debug models`
+
+Checklist:
+
+- Changes to Codex CLI, IDE extension, Codex app, Codex cloud, and GitHub review
+- Changes to `AGENTS.md`, `config.toml`, rules, hooks, and memories
+- Safety changes around sandbox modes, approval policies, auto-review, and remote environments
+- Capability changes in skills, plugins, MCP, subagents, and the Codex SDK
+- Permission boundaries across ChatGPT accounts, API keys, enterprise workspaces, GitHub, Slack, and Linear integrations
+
+### 2.3 MCP
 
 Sources to check:
 
@@ -50,7 +66,7 @@ Checklist:
 - Server registry, icons, tool name guidance, and ecosystem metadata
 - Production security expectations: least privilege, audit logs, tool isolation, and user confirmation
 
-### 2.3 Skills, Plugins, and Reusable Workflows
+### 2.4 Skills, Plugins, and Reusable Workflows
 
 Sources to check:
 
@@ -61,11 +77,12 @@ Checklist:
 
 - Whether custom commands have moved into the Skills workflow
 - Changes to `.claude/skills/*/SKILL.md` frontmatter
+- Changes to `.agents/skills/*/SKILL.md` and `agents/openai.yaml`
 - New bundled skills for code review, debugging, running, or verification
 - How skills combine with subagents, MCP, and dynamic context injection
 - Security review requirements for third-party skills
 
-### 2.4 Agent SDK and Production Agents
+### 2.5 Agent SDK and Production Agents
 
 Source to check:
 
@@ -100,9 +117,19 @@ Many copy-paste prompt templates in older lessons can become Skills:
 - `/release-check`: fixed test, build, changelog, and security checks
 - `/docs-update`: fixed bilingual sync, link checks, and terminology rules
 
-A future lesson should cover `.claude/skills/`, `SKILL.md`, and team sharing patterns.
+A future lesson should cover `.claude/skills/`, `.agents/skills/`, `SKILL.md`, and team sharing patterns.
 
-### 3.3 MCP Production Security
+### 3.3 Codex and Claude Code Tracks
+
+This repository should not cover only one tool. Future content should clearly separate:
+
+- Claude Code track: `CLAUDE.md`, Claude Code CLI, MCP, subagents, and Claude ecosystem workflows.
+- Codex track: `AGENTS.md`, Codex CLI/App/IDE/Cloud, GitHub review, sandboxing, approvals, skills, and plugins.
+- General track: context engineering, code review, testing, safety boundaries, MCP, and team workflows.
+
+Each new chapter should state whether it applies to Claude Code, Codex, or general AI coding agents.
+
+### 3.4 MCP Production Security
 
 MCP is no longer just an introductory way to connect AI to tools. Production setups need:
 
@@ -115,7 +142,7 @@ MCP is no longer just an introductory way to connect AI to tools. Production set
 
 Lesson 13 should evolve from "make it run" to "make it safe to operate."
 
-### 3.4 Multi-Agent Verification
+### 3.5 Multi-Agent Verification
 
 The value of multi-agent work is not having more roles. It comes from parallel exploration and cross-checking.
 
@@ -150,6 +177,13 @@ For each update:
 - Update subagent and nested subagent practices
 - Add hooks, permissions, safe mode, and checkpoint scenarios
 - Cover IDE, GitHub, background task, and team collaboration workflows
+
+### P1: Cover OpenAI Codex Capabilities
+
+- Add Codex CLI basics and deep-dive lessons
+- Add practical `AGENTS.md`, `config.toml`, sandbox, approval policy, and rules guidance
+- Add Codex app, IDE extension, Cloud task, and GitHub review scenarios
+- Add Codex skills, plugins, MCP, subagents, and SDK team workflows
 
 ### P2: Upgrade the MCP Lessons
 

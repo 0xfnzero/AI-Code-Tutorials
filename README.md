@@ -1,10 +1,10 @@
 <div align="center">
-    <h1>🚀 Claude Code 从入门到精通</h1>
-    <h3><em>完整的 AI 辅助编程学习教程</em></h3>
+    <h1>🚀 AI Code Tutorials</h1>
+    <h3><em>Claude Code 与 OpenAI Codex AI 辅助编程教程</em></h3>
 </div>
 
 <p align="center">
-    <strong>从零基础到高级应用，系统学习 Claude Code，掌握 AI 辅助编程技能，提升开发效率 10 倍。</strong>
+    <strong>从零基础到高级应用，系统学习 Claude Code、OpenAI Codex 和现代 AI 辅助编程工作流。</strong>
 </p>
 
 <p align="center">
@@ -24,6 +24,7 @@
 
 <p align="center">
     <img src="https://img.shields.io/badge/Claude-000000?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude">
+    <img src="https://img.shields.io/badge/Codex-111827?style=for-the-badge&logo=openai&logoColor=white" alt="Codex">
     <img src="https://img.shields.io/badge/AI-FF6B6B?style=for-the-badge&logo=openai&logoColor=white" alt="AI">
     <img src="https://img.shields.io/badge/Tutorial-4B8BBE?style=for-the-badge&logo=read-the-docs&logoColor=white" alt="Tutorial">
 </p>
@@ -47,19 +48,21 @@
 
 ## 🔎 本教程覆盖什么
 
-AI-Code-Tutorials 是一套中英双语 Claude Code 与 AI 辅助编程教程，面向零基础用户、独立开发者和专业工程师。内容从安装配置、第一次对话、CLI 命令、文件操作开始，逐步进入 Web 项目实战、提示词优化、代码审查、调试、安全最佳实践、MCP 服务器和 AI 子代理工作流。
+AI-Code-Tutorials 是一套中英双语 AI 辅助编程教程，面向零基础用户、独立开发者和专业工程师。当前内容覆盖 Claude Code 与 OpenAI Codex，从安装配置、第一次对话、CLI 命令、文件操作开始，逐步进入 Web 项目实战、提示词优化、代码审查、调试、安全最佳实践、MCP 服务器、AI 子代理和 Codex 多端工作流。
 
 | 模块 | 覆盖内容 |
 |------|----------|
-| 入门基础 | Claude Code 概念、安装配置、第一次对话、基础命令、Git 和文件操作 |
+| 入门基础 | Claude Code 与 Codex 概念、安装配置、第一次对话、基础命令、Git 和文件操作 |
 | 项目实战 | Web 应用规划、前端页面、后端 API、用户认证、功能增强、部署上线 |
 | 进阶工作流 | 提示词工程、代码审查、调试技巧、设计模式、错误处理、安全实践 |
 | AI Agent | 子代理概念、开发/架构/测试/运维代理、协作模式、MCP 服务器配置 |
-| 持续更新 | Claude Code、MCP、Skills、Agent SDK、AI 编程趋势跟踪和教程维护流程 |
+| Codex 专题 | Codex CLI、App、IDE、Cloud、GitHub review、AGENTS.md、sandbox、skills、plugins |
+| 持续更新 | Claude Code、OpenAI Codex、MCP、Skills、Agent SDK、AI 编程趋势跟踪和教程维护流程 |
 
 ## 📖 快速开始
 
-直接从 [第一课：什么是 Claude Code？](./tutorials/01-基础概念.md) 开始学习，第二课包含完整的安装和配置指南。
+如果你主要使用 Claude Code，直接从 [第一课：什么是 Claude Code？](./tutorials/01-基础概念.md) 开始学习。  
+如果你主要使用 OpenAI Codex，可以先读 [第十六课：OpenAI Codex 入门与实战](./tutorials/16-OpenAI-Codex入门与实战.md)，再回到第 6、7、9、12、13 课补齐通用 AI 编程工作流。
 
 > 📌 **维护状态**：本仓库从 2026-06-20 起加入持续更新机制。版本相关内容请优先参考 [第十五课：AI 编程发展跟踪与持续迭代手册](./tutorials/15-AI编程发展跟踪.md) 和 [更新日志](./CHANGELOG.md)。
 
@@ -205,6 +208,13 @@ AI-Code-Tutorials 是一套中英双语 Claude Code 与 AI 辅助编程教程，
 - Skills、Plugins、Agent SDK 与多 agent 工作流跟进
 - 内容更新检查清单、Roadmap 和更新日志规范
 
+#### [第十六课：OpenAI Codex 入门与实战](./tutorials/16-OpenAI-Codex入门与实战.md) ⭐
+**补齐 OpenAI Codex 工作流**，覆盖 Codex 的主要入口和团队实践：
+- Codex CLI、IDE 扩展、Codex app、Codex cloud 与 GitHub review
+- `AGENTS.md`、`config.toml`、sandbox、approval policy 与 rules
+- MCP、skills、plugins 与项目级可复用工作流
+- Codex 与 Claude Code 的差异、组合和后续学习路线
+
 ## 🎓 学习路线建议
 
 ### 零基础用户
@@ -215,13 +225,19 @@ AI-Code-Tutorials 是一套中英双语 Claude Code 与 AI 辅助编程教程，
 
 ### 有编程基础用户
 ```
-第一课（快速浏览）→ 第二课 → 第四课 → 第五课 → 第六课 → 第七课 → 第八课 → 第九课 → 第十课
+第一课（快速浏览）→ 第二课 → 第四课 → 第五课 → 第六课 → 第七课 → 第九课 → 第十课 → 第十六课
 预计学习时间：1-2 周
 ```
 
 ### 专业开发者
 ```
-第二课（安装）→ 第五课 → 第七课 → 第八课 → 第九课（必学）→ 第十课（必学）→ 第十五课（持续跟进）
+第二课（安装）→ 第五课 → 第七课 → 第九课（必学）→ 第十课（必学）→ 第十三课（MCP）→ 第十五课（持续跟进）→ 第十六课（Codex）
+预计学习时间：3-5 天
+```
+
+### Codex 用户
+```
+第十六课（Codex）→ 第十三课（MCP）→ 第十五课（持续跟进）→ 第七课（进阶技巧）→ 第九课（提示词优化）→ 第十课（AI Agent）
 预计学习时间：3-5 天
 ```
 
@@ -239,6 +255,7 @@ AI-Code-Tutorials 是一套中英双语 Claude Code 与 AI 辅助编程教程，
 完成本教程后，你将能够：
 
 - ✅ 熟练使用 Claude Code 进行日常开发
+- ✅ 熟悉 OpenAI Codex 的 CLI、App、IDE、Cloud 和 GitHub review 工作流
 - ✅ 独立完成前端和后端项目
 - ✅ 运用最佳实践编写高质量代码
 - ✅ 设计和实现复杂的应用架构
@@ -250,12 +267,26 @@ AI-Code-Tutorials 是一套中英双语 Claude Code 与 AI 辅助编程教程，
 
 AI 编程工具更新很快，本仓库后续按“官方来源核对 + 中英文同步 + 更新日志记录”的方式维护：
 
-- 每月检查 Claude Code、MCP、Skills、Agent SDK 的官方文档和版本变化
+- 每月检查 Claude Code、OpenAI Codex、MCP、Skills、Agent SDK 的官方文档和版本变化
 - 每季度复核教程中的命令、配置、模型名、部署平台和安全建议
 - 所有版本相关更新记录到 [CHANGELOG.md](./CHANGELOG.md)
 - 具体检查清单见 [第十五课](./tutorials/15-AI编程发展跟踪.md)
 
 ## 📚 扩展学习资源
+
+### 官方文档
+
+#### Claude Code
+- [Claude Code 文档](https://docs.anthropic.com/en/docs/claude-code/overview)
+- [Claude Code Changelog](https://code.claude.com/docs/en/changelog)
+
+#### OpenAI Codex
+- [OpenAI Codex Overview](https://developers.openai.com/codex)
+- [OpenAI Codex Manual](https://developers.openai.com/codex/codex-manual.md)
+
+#### 通用协议与生态
+- [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)
+- [Agent Skills](https://agentskills.io)
 
 ### 推荐文章
 
@@ -281,13 +312,14 @@ AI 编程出海不知道做什么？通过这个方法，有人月入 10 万
 
 ## 🚀 开始学习
 
-准备好了吗？让我们从第一课开始！
+根据你使用的工具选择入口：
 
-👉 [第一课：什么是 Claude Code？](./tutorials/01-基础概念.md)
+- Claude Code 用户：[第一课：什么是 Claude Code？](./tutorials/01-基础概念.md)
+- OpenAI Codex 用户：[第十六课：OpenAI Codex 入门与实战](./tutorials/16-OpenAI-Codex入门与实战.md)
 
 ## 📞 获取帮助
 
-- 💬 遇到问题？直接在项目中问 Claude Code
+- 💬 遇到问题？直接在项目中问你正在使用的 AI coding agent
 - 🐛 发现错误？提交 Issue
 - 💡 有建议？欢迎 Pull Request
 

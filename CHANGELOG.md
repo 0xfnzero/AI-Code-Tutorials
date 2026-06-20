@@ -8,7 +8,12 @@
 
 - 新增中文第 15 课：[AI 编程发展跟踪与持续迭代手册](./tutorials/15-AI编程发展跟踪.md)。
 - Added English Lesson 15: [AI Coding Update Tracker and Iteration Playbook](./tutorials/en/15-ai-coding-update-tracker.md).
-- 建立月度更新检查清单，覆盖 Claude Code、MCP、Skills、Plugins、Agent SDK 和生产安全。
+- 新增中文第 16 课：[OpenAI Codex 入门与实战](./tutorials/16-OpenAI-Codex入门与实战.md)。
+- Added English Lesson 16: [OpenAI Codex Basics and Practical Workflows](./tutorials/en/16-openai-codex-basics.md).
+- 建立月度更新检查清单，覆盖 Claude Code、OpenAI Codex、MCP、Skills、Plugins、Agent SDK 和生产安全。
+- 将 README 定位从 Claude Code 单一路线扩展为 Claude Code + OpenAI Codex 双路线。
+- 在 README/README_EN 增加 Claude Code、OpenAI Codex、MCP 和 Agent Skills 官方文档入口。
+- 在持续更新手册中新增 OpenAI Codex 官方 manual、Codex CLI、`AGENTS.md`、sandbox、skills、plugins、GitHub review 和 Cloud task 跟踪项。
 
 ### Changed
 
@@ -20,6 +25,8 @@
 
 - Claude Code latest npm version checked with `npm view @anthropic-ai/claude-code version dist-tags time.modified --json`: `2.1.183`, modified `2026-06-19T01:20:18.438Z`.
 - Official Claude Code changelog checked: [Claude Code Changelog](https://code.claude.com/docs/en/changelog).
+- OpenAI Codex manual checked: [Codex manual](https://developers.openai.com/codex/codex-manual.md).
+- Relevant Codex topics reviewed: surfaces and modes, CLI command reference, sandboxing, `AGENTS.md`, MCP, skills, plugins, GitHub code review, and cloud tasks.
 - MCP documentation checked: [MCP introduction](https://modelcontextprotocol.io/docs/getting-started/intro) and [MCP 2025-11-25 changelog](https://modelcontextprotocol.io/specification/2025-11-25/changelog).
 - Claude Code Skills checked: [Claude Code Skills](https://code.claude.com/docs/en/skills).
 - Claude Agent SDK checked: [Agent SDK overview](https://code.claude.com/docs/en/agent-sdk/overview).
