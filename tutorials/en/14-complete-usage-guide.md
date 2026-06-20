@@ -2,7 +2,7 @@
 
 > 🎯 **Learning Objective**: Systematically master all features and best practices of Claude Code as a daily development reference manual
 >
-> 🔥 **January 2025 Update**: Includes the latest CLI commands, configuration methods, MCP integration details, and production environment practices. This is your Claude Code encyclopedia!
+> 🔄 **Maintenance status (2026-06-20)**: This guide will continue to review CLI commands, configuration methods, MCP, Skills, Agent SDK, and production practices. For version-sensitive details, use [Lesson 15: AI Coding Update Tracker](./15-ai-coding-update-tracker.md) and the [Changelog](../../CHANGELOG.md).
 
 ## 📚 Guide Usage Instructions
 
@@ -2538,4 +2538,4 @@ This guide covers:
 
 **This guide is continuously updated**. Follow the [GitHub Repository](https://github.com/0xfnzero/AI-Code-Tutorials) for the latest content.
 
-📚 [Back to Tutorial Index](../README.md)
+📚 [Back to Tutorial Index](../../README_EN.md)

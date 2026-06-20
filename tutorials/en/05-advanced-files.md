@@ -650,7 +650,7 @@ Now you have learned:
 
 **Ready to learn more advanced content?**
 
-👉 Next Lesson: [Hands-on Project: Complete Web Application](./06-project-web-app.md)
+👉 Next Lesson: [Hands-on Project: Complete Web Application](./06-web-project.md)
 
 There, we will:
 1. Build a complete project from scratch

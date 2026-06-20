@@ -2,7 +2,7 @@
 
 > 🎯 **Learning Objective**: Master MCP server addition, configuration and usage to boost Claude Code functionality 10x
 
-> 🔥 **January 2025 Update**: Includes the latest MCP configuration methods, common error solutions, and 10 tested practical MCP server recommendations. Solves 90%+ configuration issues!
+> 🔄 **Maintenance status (2026-06-20)**: This chapter was originally based on 2025 configuration patterns and will be reviewed against the latest MCP specification over time. For version-sensitive details, use [Lesson 15: AI Coding Update Tracker](./15-ai-coding-update-tracker.md) and the [Changelog](../../CHANGELOG.md).
 
 ## 📚 Course Overview
 
@@ -1588,4 +1588,4 @@ Through this course, you should have mastered:
 
 After correctly configuring MCP servers, your Claude Code will transform from a simple AI assistant into a powerful development partner, and development efficiency will significantly improve!
 
-📚 [Back to Tutorial Index](../README.md)
+📚 [Back to Tutorial Index](../../README_EN.md)

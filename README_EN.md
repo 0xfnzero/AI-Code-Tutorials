@@ -55,10 +55,13 @@ AI-Code-Tutorials is a bilingual Claude Code and AI-assisted programming course 
 | Hands-on projects | Web app planning, frontend pages, backend APIs, authentication, feature enhancements, deployment |
 | Advanced workflows | Prompt engineering, code review, debugging, design patterns, error handling, security practices |
 | AI agents | Sub-agent concepts, development/architecture/testing/DevOps agents, collaboration modes, MCP server setup |
+| Continuous updates | Claude Code, MCP, Skills, Agent SDK, AI coding trends, and tutorial maintenance workflow |
 
 ## 📖 Quick Start
 
 Start directly from [Lesson 1: What is Claude Code?](./tutorials/en/01-basics.md). Lesson 2 includes complete installation and configuration guide.
+
+> 📌 **Maintenance status**: Since 2026-06-20, this repository includes a continuous update process. For version-sensitive content, start with [Lesson 15: AI Coding Update Tracker](./tutorials/en/15-ai-coding-update-tracker.md) and the [Changelog](./CHANGELOG.md).
 
 ## 🎯 Course Outline
 
@@ -195,6 +198,13 @@ Master advanced development skills with 6 specialized modules:
 - Troubleshooting and debugging
 - Production environment practices (CI/CD, Docker, monitoring)
 
+#### [Lesson 15: AI Coding Update Tracker and Iteration Playbook](./tutorials/en/15-ai-coding-update-tracker.md) ⭐
+**Keep the tutorial aligned with fast-moving AI development**:
+- Claude Code version, changelog, and CLI command review
+- MCP specification, authentication, safety, and production practice tracking
+- Skills, Plugins, Agent SDK, and multi-agent workflow monitoring
+- Content update checklist, roadmap, and changelog process
+
 ## 🎓 Learning Path Recommendations
 
 ### For Complete Beginners
@@ -211,7 +221,7 @@ Estimated time: 1-2 weeks
 
 ### For Professional Developers
 ```
-Lesson 2 (installation) → Lesson 5 → Lesson 7 → Lesson 8 → Lesson 9 (must-learn) → Lesson 10 (must-learn)
+Lesson 2 (installation) → Lesson 5 → Lesson 7 → Lesson 8 → Lesson 9 (must-learn) → Lesson 10 (must-learn) → Lesson 15 (keep current)
 Estimated time: 3-5 days
 ```
 
@@ -233,7 +243,17 @@ After completing this tutorial, you will be able to:
 - ✅ Apply best practices to write high-quality code
 - ✅ Design and implement complex application architectures
 - ✅ Establish a complete development workflow
+- ✅ Track AI coding tool changes and update team practices regularly
 - ✅ Use AI to boost efficiency by 10x
+
+## 🔄 Continuous Update Process
+
+AI coding tools move quickly. This repository now follows an "official-source review + bilingual sync + changelog" maintenance workflow:
+
+- Check Claude Code, MCP, Skills, and Agent SDK official docs and versions monthly
+- Review commands, configuration fields, model names, deployment platforms, and security guidance quarterly
+- Record version-sensitive updates in [CHANGELOG.md](./CHANGELOG.md)
+- Use [Lesson 15](./tutorials/en/15-ai-coding-update-tracker.md) as the detailed maintenance checklist
 
 ## 📚 Extended Learning Resources
 
@@ -287,7 +307,7 @@ Thanks to all contributors who make this tutorial better!
 
 ## 📈 Project Status
 
-- ✅ 10 complete courses
+- ✅ 15 complete lessons
 - ✅ From beginner to expert
 - ✅ Includes hands-on projects
 - ✅ Continuously updated

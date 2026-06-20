@@ -823,8 +823,8 @@ You've successfully built and deployed a complete web application! Your Todo App
 
 Continue learning:
 - 👉 **[Lesson 7: Advanced Techniques](../07-advanced-techniques.md)** - Master advanced development techniques
-- 👉 **[Lesson 9: Version Control](../09-version-control.md)** - Learn advanced Git workflows
-- 👉 **[Lesson 10: Team Collaboration](../10-team-collaboration.md)** - Work effectively in teams
+- 👉 **[Lesson 9: Prompt Optimization](../09-prompt-optimization.md)** - Improve AI collaboration quality
+- 👉 **[Lesson 10: AI Agent System](../10-ai-agents.md)** - Build specialist agent workflows
 
 ## Resources
 
