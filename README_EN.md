@@ -31,9 +31,9 @@
 
 <p align="center">
     <a href="#-course-outline">Course Outline</a> •
-    <a href="#-learning-paths">Learning Paths</a> •
+    <a href="#-learning-path-recommendations">Learning Paths</a> •
     <a href="#-learning-objectives">Objectives</a> •
-    <a href="#-resources">Resources</a>
+    <a href="#-extended-learning-resources">Resources</a>
 </p>
 
 <p align="center">
